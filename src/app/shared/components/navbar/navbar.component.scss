@@ -18,15 +18,14 @@ nav{
             align-items: center;
             list-style: none;
             height: 80px;
-            margin-left: 60px;
-            font-weight: 300;
+            margin-left: 45px;
+            font-weight: bold;
             // padding-left: 70px;
             li{
                 margin-right: 20px;
                 a{
                     color: #333;
                     font-size: 14px;
-                    font-weight: 500;
                     &:hover{
                         color: #00a0e9;
                     }
@@ -40,12 +39,13 @@ nav{
                     height: 2px;
                     margin-left: auto;
                     margin-right: auto;
+                    margin-top: 3px;
                     animation-name: out;
-                    animation-duration: 500ms;
+                    animation-duration: 300ms;
                 }
                 &:hover > span {
                     animation-name: in;
-                    animation-duration: 500ms;
+                    animation-duration: 300ms;
                     animation-fill-mode: forwards;
                 }
                 @keyframes in {
@@ -66,9 +66,14 @@ nav{
             align-items: center;
             list-style: none;
             height: 80px;
-            padding-left: 70px;
+            margin-right: 50px;
+            font-size: 25px;
+            // padding-left: 70px;
             li{
                 margin-right: 20px;
+                align-items: center;
+                text-align: center;
+                
                 a{
                     color: #333;
                     font-size: 14px;
@@ -77,9 +82,9 @@ nav{
                         color: #00a0e9;
                     }
                 }
-                align-items: center;
-                text-align: center;
-                
+                select{
+                    height: 100%;
+                }
             }
         }
     }
