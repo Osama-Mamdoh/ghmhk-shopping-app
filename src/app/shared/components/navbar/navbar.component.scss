@@ -1,0 +1,86 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+        display: flex;
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            margin-left: 40px;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            height: 80px;
+            margin-left: 60px;
+            font-weight: 300;
+            // padding-left: 70px;
+            li{
+                margin-right: 20px;
+                a{
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: 500;
+                    &:hover{
+                        color: #00a0e9;
+                    }
+                }
+                align-items: center;
+                text-align: center;
+                span{
+                    width: 0%;
+                    display: block;
+                    background: #000;
+                    height: 2px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    animation-name: out;
+                    animation-duration: 500ms;
+                }
+                &:hover > span {
+                    animation-name: in;
+                    animation-duration: 500ms;
+                    animation-fill-mode: forwards;
+                }
+                @keyframes in {
+                    from { width: 0%; }
+                    to { width: 100%;}
+                }
+                
+                @keyframes out {
+                    // from  { width: 100%; }
+                    to { width: 0%; }
+                }
+            }
+        }
+    }
+    .right{
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            height: 80px;
+            padding-left: 70px;
+            li{
+                margin-right: 20px;
+                a{
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: 500;
+                    &:hover{
+                        color: #00a0e9;
+                    }
+                }
+                align-items: center;
+                text-align: center;
+                
+            }
+        }
+    }
+}
