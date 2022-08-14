@@ -28,6 +28,7 @@ nav{
                     font-size: 14px;
                     &:hover{
                         color: $primary-color;
+                        transition: 200ms ease-in-out;    
                     }
                 }
                 span{
@@ -50,6 +51,7 @@ nav{
                     to { width: 0%; }
                 }
             }
+
         }
     }
     .right{
@@ -62,12 +64,9 @@ nav{
             font-size: 25px;
             li{
                 margin-right: 20px;
-                fa-icon{
-                    color: black;
-                    &:hover{
-                        color: $primary-color;
-                        transition: 300ms ease-in-out;
-                    }
+                &:hover > fa-icon{
+                    color: $primary-color;
+                    transition: 300ms ease-in-out;    
                 }
             }
         }
