@@ -1,0 +1,15 @@
+footer{
+    .socialMediaIcons{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        justify-content: center;
+        fa-icon{
+            margin-left: 1rem;
+        }
+    }
+    .copyrights{
+        padding: 1rem;
+        text-align: center;
+    }
+}

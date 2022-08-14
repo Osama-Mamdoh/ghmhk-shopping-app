@@ -1,0 +1,59 @@
+<nav>
+    <div class="left">
+        <a class="logo"routerLink="/">
+            <img src="https://cdn.simpleshop.com/demo/shopimages/xm500x120l/60_20210228171451111.png" alt="logo" />
+        </a>
+        <ul>
+            <li>
+                <a routerLink="/home">Home</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Example Category 1</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Example Category 2</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Example Category 3</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Gallery</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Contact us</a>
+                <span></span>
+            </li>
+            <li>
+                <a routerLink="/home">Blog</a>
+                <span></span>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+        <ul>
+            <li>
+                <fa-icon [icon]="faSearch"></fa-icon>
+            </li>
+            <li>
+                <fa-icon [icon]="faUser"></fa-icon>
+            </li>
+            <li>
+                <select name="currency" id="currency">
+                    <option value="gbp">GBP</option>
+                    <option value="aud">AUD</option>
+                    <option value="cad">CAD</option>
+                    <option value="eur">EUR</option>
+                    <option value="usd">USD</option>
+                </select>
+            </li>
+            <li>
+                <fa-icon [icon]="faShoppingBag"></fa-icon>
+            </li>
+        </ul>
+    </div>
+</nav>
