@@ -1,0 +1,32 @@
+.carousel {
+  margin: 0px 0 0 0;
+}
+
+.carousel-caption {
+  margin: 0 0 9% 0;
+  text-align: left;
+  
+  h5 {
+    font-size: 64px;
+    line-height: 77px;
+    margin-top: 4px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 4px;
+    color: #fff;
+  }
+  
+  button {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    padding: 5px 20px 4px;
+    line-height: 1;
+    font-weight: 800;
+    height: 44px;
+  }
+}
